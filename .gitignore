@@ -1,0 +1,6 @@
+vim/.vim/bundles
+vim/.vim/plugged
+vim/.vim/autoload
+vim/.vim/.netrwhist
+vim/.vim/.tags
+zsh/.zsh_history
