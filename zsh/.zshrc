@@ -9,7 +9,7 @@ plugins=(git)
 # -- [ aliases ] ---------------------------------------------------------------
 # git
 alias gp="git push origin"
-alias gpl="git pull origin"
+alias gpr="git pull --rebase"
 alias gb="git branch"
 alias gc="git commit"
 alias ga="git add"
@@ -18,11 +18,15 @@ alias gcb="git checkout -b"
 alias gc-="git checkout --"
 alias gs="git status"
 alias gl="git log --oneline"
+alias gln="git log --oneline -n"
 alias gst="git stash"
 alias gsa="git stash apply"
+alias gf="git fetch -p"
 alias gm="git merge"
-alias gln="git log --oneline -n"
+alias gmd="git merge --no-ff origin/develop"
 alias gdf="git diff"
+alias gmc="git clone --recurse-submodules"
+alias gmu="git submodule update --remote"
 
 # docker compose
 alias dcb="docker-compose build"
@@ -31,8 +35,15 @@ alias dcd="docker-compose down"
 alias dce="docker-compose exec"
 alias dcps="docker-compose ps"
 
+# yarn
+alias ys="yarn start"
+alias ybw="yarn build.watch"
+
 # シェルの再起動
 alias relogin='exec $SHELL -l'
+
+# fzf
+alias vfz='vim $(fzf)'
 
 # -- [ sh settings ] -----------------------------------------------------------
 # setopt

@@ -1,8 +1,4 @@
-#--------------------------------------------------------------
-# HomeBrew
-#--------------------------------------------------------------
-# Automated installation commands: $ brew bundle
-
+tap "google/tink", "https://github.com/google/tink"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
@@ -10,6 +6,7 @@ brew "coreutils"
 brew "diffutils"
 brew "ed"
 brew "findutils"
+brew "fzf"
 brew "gawk"
 brew "git"
 brew "gnu-sed"
@@ -27,3 +24,4 @@ brew "vim"
 brew "wget"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
+brew "google/tink/tinkey"
