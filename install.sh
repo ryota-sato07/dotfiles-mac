@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-# Symbolic Links
+# install command
 #-------------------------------------------------------------------------------
 #!/bin/bash
 
@@ -20,12 +20,24 @@ fi
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+cd ~/dotfiles
 
-echo 'start: setup Symbolic Links'
+# Brewfile のパッケージインストール
+brew bundle
+
+echo '
+===========================
+start: setup Symbolic Links
+===========================
+'
 ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/dotfiles/zsh/.zshenv ~/.zshenv
 ln -s ~/dotfiles/zsh/.zsh_history ~/.zsh_history
 ln -s ~/dotfiles/vim/.vim ~/.vim
 ln -s ~/dotfiles/vim/.vimrc ~/.vimrc
 ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
-echo 'complete: setup Symbolic Links'
+echo '
+==============================
+complete: setup Symbolic Links
+==============================
+'
