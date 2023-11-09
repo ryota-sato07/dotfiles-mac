@@ -66,6 +66,9 @@ if exists('&colorcolumn')
   autocmd FileType sh,vim,sql,scala,html,css,scss,js,ts,vue setlocal textwidth=80
 endif
 
+"VSCodeライクなカラースキーマに変更
+let g:airline_theme = 'codedark'
+
 "-----[ 編集、文書整形関連 ]----------------------------------------------------
 set tabstop=2                   "タブ幅
 set textwidth=0                 "自動改行を無効化
