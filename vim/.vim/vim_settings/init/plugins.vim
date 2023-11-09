@@ -18,10 +18,10 @@ Plug 'pechorin/any-jump.vim', { 'on': 'AnyJump' }  "定義元ジャンプ
 Plug 'rking/ag.vim', { 'on': ['Ag', 'AgFile'] }    "Vimからagを使えるようにする
 Plug 'thinca/vim-qfreplace', { 'on': 'Qfreplace' } "複数ファイルの一括置換
 Plug 'tomasiser/vim-code-dark'                     "カラースキームをVSCodeライクにする
+Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 
 " vim-scala の設定
-Plug 'derekwyatt/vim-scala'
-Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
-au BufRead,BufNewFile *.sbt set filetype=scala
+" Plug 'derekwyatt/vim-scala'
+" au BufRead,BufNewFile *.sbt set filetype=scala
 
 call plug#end()
