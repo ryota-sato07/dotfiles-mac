@@ -4,3 +4,5 @@ vim/.vim/autoload
 vim/.vim/.netrwhist
 vim/.vim/.tags
 zsh/.zsh_history
+Brewfile.lock.json
+.metals/

@@ -63,7 +63,7 @@ set textwidth=0
 if exists('&colorcolumn')
   set colorcolumn=+1
   "対象言語
-  autocmd FileType sh,vim,sql,scala,html,css,scss,js,ts,vue setlocal textwidth=80
+  autocmd FileType sh,vim,sql,scala,html,css,scss,js,ts,vue,go setlocal textwidth=80
 endif
 
 "VSCodeライクなカラースキーマに変更
