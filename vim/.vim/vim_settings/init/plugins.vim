@@ -4,6 +4,7 @@
 
 call plug#begin()
 
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }  "Language Server を有効化
 Plug 'simeji/winresizer'                           "ウィンドウサイズの変更を簡単にする
 Plug 'itchyny/lightline.vim'                       "ステータスバーのカスタマイズ
 Plug 'tpope/vim-fugitive'                          "gitの情報を表示
@@ -19,6 +20,10 @@ Plug 'rking/ag.vim', { 'on': ['Ag', 'AgFile'] }    "Vimからagを使えるよ�
 Plug 'thinca/vim-qfreplace', { 'on': 'Qfreplace' } "複数ファイルの一括置換
 Plug 'tomasiser/vim-code-dark'                     "カラースキームをVSCodeライクにする
 Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+
+" vim-go の設定
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' } "Goの自動pkgインポート・自動フォーマット
+" autocmd! BufWritePre *.go call execute('LspDocumentFormatSync') | call execute('LspCodeActionSync source.organizeImports')
 
 " vim-scala の設定
 " Plug 'derekwyatt/vim-scala'

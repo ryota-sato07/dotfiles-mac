@@ -5,6 +5,7 @@
 ZSH_THEME="robbyrussell"
 source $ZSH/oh-my-zsh.sh
 plugins=(git)
+source ~/.zsh_profile
 
 # -- [ aliases ] ---------------------------------------------------------------
 # git

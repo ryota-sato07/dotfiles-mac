@@ -8,7 +8,7 @@ export PATH="/usr/local/sbin:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 
 # JAVA CDK
-export JAVA_HOME=`/usr/libexec/java_home -v "1.8.0_342"`
+export JAVA_HOME=`/usr/libexec/java_home -v "1.8.0_312"`
 PATH=$JAVA_HOME/bin:$PATH
 
 # yarn global add
