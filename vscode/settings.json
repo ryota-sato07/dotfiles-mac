@@ -1,0 +1,51 @@
+{
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "all",
+    "files.autoSave": "onFocusChange",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "emmet.variables": {
+        "lang": "ja"
+    },
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "compressed",
+            "extensionName": ".css",
+            "savePath": "/css"
+        }
+    ],
+    "editor.wordWrap": "on",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "extensions.ignoreRecommendations": true,
+    "editor.formatOnSave": true,
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "testing.gutterEnabled": false,
+    "vetur.format.defaultFormatter.html": "prettier",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": false,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "scala": true,
+        "typescript": false
+    },
+    "terraform.languageServer.enable": false,
+    "vim.useSystemClipboard": true
+}
