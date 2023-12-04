@@ -61,6 +61,9 @@ export HISTFILE=~/dotfiles/zsh/.zsh_history
 export HISTSIZE=100000
 export SAVEHIST=100000
 
+# Added by Amplify CLI binary installer
+export PATH="$HOME/.amplify/bin:$PATH"
+
 # -- [ zshパッケージの設定 ] -------------------------------------------
 # zsh-completions
 if type brew &>/dev/null; then
