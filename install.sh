@@ -36,6 +36,8 @@ ln -s ~/dotfiles/zsh/.zsh_history ~/.zsh_history
 ln -s ~/dotfiles/vim/.vim ~/.vim
 ln -s ~/dotfiles/vim/.vimrc ~/.vimrc
 ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
+ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/setting.json
 echo '
 ==============================
 complete: setup Symbolic Links
